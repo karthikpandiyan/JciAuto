@@ -26,6 +26,29 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JCI.CAM.AutoTaggingApp", "J
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JCI.CAM.AutoTaggingAppWeb", "JCI.CAM.AutoTaggingAppWeb\JCI.CAM.AutoTaggingAppWeb.csproj", "{C4D4F826-44E1-482C-A5AE-92B40EA5A8D7}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JCI.Azure.Framework.Provisioning", "JCI.Azure.Framework.Provisioning\JCI.Azure.Framework.Provisioning.csproj", "{4880FDE2-39E0-4F71-8AFE-1BCB1ED61FD6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JCI.CAM.Provisioning.Core", "JCI.CAM.Provisioning.Core\JCI.CAM.Provisioning.Core.csproj", "{721A1C4F-3026-433F-AFE9-D76FACCD0356}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DeploymentScripts", "DeploymentScripts", "{BEB767A1-0A9E-49FD-95C0-3FC8FA072193}"
+	ProjectSection(SolutionItems) = preProject
+		DeploymentScripts\7-zip.dll = DeploymentScripts\7-zip.dll
+		DeploymentScripts\7z.dll = DeploymentScripts\7z.dll
+		DeploymentScripts\7z.exe = DeploymentScripts\7z.exe
+		DeploymentScripts\7z.sfx = DeploymentScripts\7z.sfx
+		DeploymentScripts\7zCon.sfx = DeploymentScripts\7zCon.sfx
+		DeploymentScripts\Args.dll = DeploymentScripts\Args.dll
+		DeploymentScripts\Args.xml = DeploymentScripts\Args.xml
+		DeploymentScripts\Deployment.ps1 = DeploymentScripts\Deployment.ps1
+		DeploymentScripts\DeploymentConfig.xml = DeploymentScripts\DeploymentConfig.xml
+		DeploymentScripts\jciqa.PublishSettings = DeploymentScripts\jciqa.PublishSettings
+		DeploymentScripts\PPEDeploymentConfig.xml = DeploymentScripts\PPEDeploymentConfig.xml
+		DeploymentScripts\QADeploymentConfig - Copy.xml = DeploymentScripts\QADeploymentConfig - Copy.xml
+		DeploymentScripts\QADeploymentConfig.xml = DeploymentScripts\QADeploymentConfig.xml
+		DeploymentScripts\WAWSDeploy.exe = DeploymentScripts\WAWSDeploy.exe
+		DeploymentScripts\WAWSDeploy.exe.config = DeploymentScripts\WAWSDeploy.exe.config
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -46,12 +69,22 @@ Global
 		{C4D4F826-44E1-482C-A5AE-92B40EA5A8D7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C4D4F826-44E1-482C-A5AE-92B40EA5A8D7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C4D4F826-44E1-482C-A5AE-92B40EA5A8D7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4880FDE2-39E0-4F71-8AFE-1BCB1ED61FD6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4880FDE2-39E0-4F71-8AFE-1BCB1ED61FD6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4880FDE2-39E0-4F71-8AFE-1BCB1ED61FD6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4880FDE2-39E0-4F71-8AFE-1BCB1ED61FD6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{721A1C4F-3026-433F-AFE9-D76FACCD0356}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{721A1C4F-3026-433F-AFE9-D76FACCD0356}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{721A1C4F-3026-433F-AFE9-D76FACCD0356}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{721A1C4F-3026-433F-AFE9-D76FACCD0356}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{CD640094-5058-47D2-ACE5-C535FCC32D80} = {DA6E10F9-D8C1-46C2-95CF-8B19BBECEDBE}
+		{4880FDE2-39E0-4F71-8AFE-1BCB1ED61FD6} = {DA6E10F9-D8C1-46C2-95CF-8B19BBECEDBE}
+		{721A1C4F-3026-433F-AFE9-D76FACCD0356} = {DA6E10F9-D8C1-46C2-95CF-8B19BBECEDBE}
 		{C4D4F826-44E1-482C-A5AE-92B40EA5A8D7} = {CDC8F466-C7CD-40D6-87E6-ACEA13D330C9}
 		{E82C05F1-2143-4F60-9AEE-094C9413F8F8} = {E32AE82A-AE09-4B98-B1D0-499CF7A5F735}
 	EndGlobalSection
